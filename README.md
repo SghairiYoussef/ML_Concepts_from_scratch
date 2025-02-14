@@ -21,26 +21,7 @@ Alternatively, you can clone this repository and run the code directly:
 git clone https://github.com/SghairiYoussef/ML_Concepts_from_scratch.git
 cd ML_Concepts_from_scratch
 ```
-Structure
-Here’s a brief overview of the repository structure:
-```
-ML_Concepts_from_scratch/
-│
-├── algorithms/             # Implementations of various ML algorithms
-│   ├── decision_tree.py    # Decision tree implementation
-│   ├── linear_regression.py # Linear regression from scratch
-│   └── ...
-│
-├── evaluation/             # Functions for evaluation techniques
-│   ├── cross_validation.py # Cross-validation implementation
-│   └── ...
-│
-├── utils/                  # Helper functions for data preprocessing, etc.
-│   └── data_utils.py       # Data utilities
-│
-├── README.md              # This file
-└── requirements.txt        # List of dependencies
-```
+
 **Key Files:**
 algorithms/: Contains implementations of machine learning algorithms.
 evaluation/: Functions that evaluate model performance, such as cross-validation.
