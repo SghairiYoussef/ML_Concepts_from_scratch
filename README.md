@@ -45,27 +45,5 @@ ML_Concepts_from_scratch/
 algorithms/: Contains implementations of machine learning algorithms.
 evaluation/: Functions that evaluate model performance, such as cross-validation.
 utils/: Helper functions for data manipulation, such as normalization and entropy calculation.
-**Usage**
-Example 1: Decision Tree Learning
-The decision_tree.py file contains the implementation of a decision tree algorithm based on Information Gain.
 
-from algorithms.decision_tree import learn_decision_tree
-``` Python
-# Example dataset
-data = [
-    {'feature1': 1, 'feature2': 2, 'class': 'A'},
-    {'feature1': 3, 'feature2': 4, 'class': 'B'},
-    {'feature1': 5, 'feature2': 6, 'class': 'A'},
-    {'feature1': 7, 'feature2': 8, 'class': 'A'},
-    {'feature1': 9, 'feature2': 10, 'class': 'B'}
-]
-
-attributes = ['feature1', 'feature2']
-target_attr = 'class'
-
-# Build the decision tree
-decision_tree = learn_decision_tree(data, attributes, target_attr)
-
-print(decision_tree)
-```
 For any questions, feel free to reach out to me.
