@@ -25,6 +25,5 @@ cd ML_Concepts_from_scratch
 **Key Files:**
 algorithms/: Contains implementations of machine learning algorithms.
 evaluation/: Functions that evaluate model performance, such as cross-validation.
-utils/: Helper functions for data manipulation, such as normalization and entropy calculation.
 
 For any questions, feel free to reach out to me.
